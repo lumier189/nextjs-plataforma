@@ -1,0 +1,1 @@
+const bg = 'https://cdn.discordapp.com/attachments/940151959489499209/1097231567757246557/image.png'
