@@ -42,7 +42,7 @@ const VideoPlayer = () => {
     <Box minW={'1170px'} maxW={'1170px'}>
       <Flex flexDirection={'column'}>
         <Box>
-          <Text
+          {currentClass?.module ? (<Text
             textColor={'#666666'}
             fontWeight={500}
             fontSize={'19.4px'}
@@ -50,7 +50,18 @@ const VideoPlayer = () => {
             {`${currentClass?.module} - `}
             {`${currentClass?.name} - `}
             {isPlaying?.name}
-          </Text>
+          </Text>): <Text textColor={'#666666'}
+            fontWeight={500}
+            fontSize={'19.4px'}> corno</Text>}
+          {/* <Text
+            textColor={'#666666'}
+            fontWeight={500}
+            fontSize={'19.4px'}
+          >
+            {`${currentClass?.module} - `}
+            {`${currentClass?.name} - `}
+            {isPlaying?.name}
+          </Text> */}
         </Box>
         <Box
           borderColor={'white'}

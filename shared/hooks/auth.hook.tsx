@@ -124,7 +124,7 @@ export function AuthProvider(props: IAuthProviderProps) {
           'Authorization'
         ] = `Bearer ${response.data.access_token}`;
 
-        await router.push(route_names.pautaforma.cursos.href);
+        await router.push(route_names.pautaforma.home.href);
       } catch (e) {
         console.log(e);
         toast({

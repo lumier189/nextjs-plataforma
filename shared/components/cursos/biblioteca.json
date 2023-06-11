@@ -1,0 +1,770 @@
+{
+  "blibioteca": {
+    "sites_para_aprender_a_programar": [
+      {
+        "name": "Rocketseat",
+        "url": "https://rocketseat.com.br/",
+        "description": "Cursos gratuitos sobre as tecnologias mais quentes do mercado"
+      },
+      {
+        "name": "Digital Innovation One",
+        "url": "http://digitalinnovation.one/",
+        "description": "Plataforma de ensino gratuita que desenvolve e conecta talentos"
+      },
+      {
+        "name": "Torne-se um Programador",
+        "url": "https://www.torneseumprogramador.com.br/cursos",
+        "description": "Dezenas de cursos gratuitos completos e avançados com aplicações reais de mercado."
+      },
+      {
+        "name": "Curso em Vídeo",
+        "url": "https://www.cursoemvideo.com/",
+        "description": "Cursos básicos gratuitos para iniciantes"
+      },
+      {
+        "name": "Origamid",
+        "url": "https://www.origamid.com/",
+        "description": "Cursos gratuitos e pagos para desenvolver suas habilidades na área de UX & UI Design e desenvolvimento front-end"
+      },
+      {
+        "name": "Udemy Development",
+        "url": "https://www.udemy.com/courses/development/?price=price-free&sort=popularity",
+        "description": "+1.400 cursos de desenvolvimento gratuitos"
+      },
+      {
+        "name": "Udemy IT",
+        "url": "https://www.udemy.com/courses/it-and-software/?price=price-free&lang=pt&sort=popularity",
+        "description": "+100 cursos de TI e softwares"
+      },
+      {
+        "name": "HackerRank",
+        "url": "https://www.hackerrank.com/",
+        "description": "Desafios de Programação Back-end. Com IDE integrada"
+      },
+      {
+        "name": "Hackereath",
+        "url": "https://www.hackerearth.com/",
+        "description": "Site para desenvolver suas habilidades de código."
+      },
+      {
+        "name": "CoderByte",
+        "url": "https://coderbyte.com/",
+        "description": "Desafios de Programação Back-end. Com IDE integrada"
+      },
+      {
+        "name": "Coderchef",
+        "url": "https://www.codechef.com/",
+        "description": "Site para Estuda sobre programação, código e afins."
+      },
+      {
+        "name": "W3Resources",
+        "url": "https://w3resource.com",
+        "description": "Exercícios online para praticar de inúmeras linguagens"
+      },
+      {
+        "name": "Coursera",
+        "url": "https://www.coursera.org/",
+        "description": "Cursos gratuitos com conteúdos conceituados"
+      },
+      {
+        "name": "Scrimba",
+        "url": "https://scrimba.com/",
+        "description": "Cursos gratuitos e pagos para aprender as tecnologias mais demandadas do Front-end"
+      },
+      {
+        "name": "CodePen",
+        "url": "https://codepen.io/",
+        "description": "Rede social de desenvolvedores front-end"
+      },
+      {
+        "name": "Codementor",
+        "url": "https://www.codementor.io/",
+        "description": "Site para praticar e aprender a desenvolver suas skills como desenvolvedor"
+      },
+      {
+        "name": "FreeCodeCamp",
+        "url": "https://www.freecodecamp.org/",
+        "description": "Aprenda como codificar gratuitamente e ganhe portfólio ajudando organizações sem fins lucrativos"
+      },
+      {
+        "name": "GeeksForGeeks",
+        "url": "https://www.geeksforgeeks.org/",
+        "description": "Plataforma para desenvolver suas habilidade em diversas áreas da programação"
+      },
+      {
+        "name": "W3Schools",
+        "url": "https://www.w3schools.com",
+        "description": "Inúmeras documentações explicadas de forma intuitiva"
+      },
+      {
+        "name": "Khan Academy",
+        "url": "https://pt.khanacademy.org/",
+        "description": "Plataforma de estudos conceituada sobre aprendizado gamificado"
+      },
+      {
+        "name": "Udacity",
+        "url": "https://www.udacity.com/",
+        "description": "Aprendizado tecnológico com ps conteúdos mais quentes do mercado (IA, data science, cloud computing, etc)"
+      },
+      {
+        "name": "SoloLearn",
+        "url": "https://www.sololearn.com/",
+        "description": "Aprenda a programar gratuitamente pelo celular ou web"
+      },
+      {
+        "name": "edX",
+        "url": "https://www.edx.org/",
+        "description": "Aprenda com os melhores, cursos de ciência da computação e ciência de dados ministradas por docentes das maiores e melhores universidades de todo o mundo"
+      },
+      {
+        "name": "Treehouse",
+        "url": "https://teamtreehouse.com/",
+        "description": "Cursos para desenvolvedores e aprimomaromento de portfólio"
+      },
+      {
+        "name": "Coding Ground",
+        "url": "https://www.tutorialspoint.com/codingground.htm",
+        "description": "Várias plataformas de codificação online"
+      },
+      {
+        "name": "TheOdinProject",
+        "url": "https://www.theodinproject.com/",
+        "description": "Site para aprender programação e desenvolvimento por meio de cursos"
+      },
+      {
+        "name": "FrontEndMaster",
+        "url": "https://frontendmasters.com/",
+        "description": "Site para aprender programação e desenvolvimento por meio de cursos"
+      },
+      {
+        "name": "Balta.io",
+        "url": "https://balta.io",
+        "description": "Site para aprender programação e desenvolvimento por meio de cursos"
+      },
+      {
+        "name": "FrontEndMaster",
+        "url": "https://frontendmasters.com/",
+        "description": "Site para aprender programação e desenvolvimento por meio de cursos"
+      },
+      {
+        "name": "DataScienceAcademy",
+        "url": "https://www.datascienceacademy.com.br/",
+        "description": "Site com diversos cursos gratuitos para inciar no mundo de Python & DataScience"
+      },
+      {
+        "name": "FIAPx",
+        "url": "https://www.fiap.com.br/fiapx",
+        "description": "Site com diversos cursos gratuitos na área da tecnologia"
+      },
+      {
+        "name": "FGV",
+        "url": "https://educacao-executiva.fgv.br/busca?keys=&curso_tipo%5B%5D=517&modalidade%5B%5D=45&area-conhec%5B%5D=571&tipo_invest%5B1%5D=1&estados=26&cidades=251&unidade=All&sort_by=field_oferta_data_inicio_turma_value&items_per_page=10&mail_address_me=",
+        "description": "Site com diversos cursos gratuitos na área da tecnologia"
+      },
+      {
+        "name": "CodeAcademy",
+        "url": "https://www.codecademy.com/",
+        "description": "Site com diversos cursos gratuitos de programação (EN)"
+      },
+      {
+        "name": "Kaggle",
+        "url": "https://www.kaggle.com/learn",
+        "description": "Site com diversos cursos gratuitos de Python & DataScience (EN)"
+      },
+      {
+        "name": "Complete Intro to Web Development",
+        "url": "https://btholt.github.io/intro-to-web-dev-v2/",
+        "description": "Site com os principais conteúdos referentes a desenvolvimento web criado e mantido por um dos professores do site Frontend Masters (EN)"
+      }
+    ],
+    "sites_para_desenvolvedor_front_end": [
+      {
+        "name": "Uiverse",
+        "url": "https://uiverse.io/",
+        "description": "Rede social de elementos de interfaces."
+      },
+      {
+        "name": "Shape Dividers",
+        "url": "https://shapedividers.com",
+        "description": "Gera divisores de formas verticais, responsivos, e animados facilmente com este gerador de divisores de formas SVG"
+      },
+      {
+        "name": "Couleur",
+        "url": "https://couleur.io",
+        "description": "Uma ferramenta de cores simples para ajudá-lo a encontrar uma boa paleta de cores para seu projeto da web"
+      },
+      {
+        "name": "Baseline CSS Filters",
+        "url": "https://baseline.is/tools/css-photo-filters/",
+        "description": "36 Belos filtros de fotos, com edição simples e CSS para copiar"
+      },
+      {
+        "name": "UI Deck",
+        "url": "https://uideck.com",
+        "description": "Modelo de página de destino HTML gratuitos e premium, temas de bootstrap, modelos de React, modelos de Tailwind, modelos de site HTML, e kits de interface de usúario"
+      },
+      {
+        "name": "Naevner",
+        "url": "https://naevner.com",
+        "description": "Descrição de cores em linguagem natural, gerador de códigos em cores hexadecimais"
+      },
+      {
+        "name": "Meta Tags",
+        "url": "https://metatags.io/",
+        "description": "Elementos de metadados HTML gerados automaticamente para melhor o SEO"
+      }
+    ],
+    
+      "sites_para_programar_jogando": [
+        {
+          "name": "Code Combat",
+          "url": "https://br.codecombat.com"
+        },
+        {
+          "name": "CheckiO",
+          "url": "https://checkio.org"
+        },
+        {
+          "name": "CodeWars",
+          "url": "https://www.codewars.com/"
+        },
+        {
+          "name": "Schemaverse",
+          "url": "https://schemaverse.com"
+        },
+        {
+          "name": "Code Monkey",
+          "url": "https://codemonkey.com"
+        },
+        {
+          "name": "Coding Games",
+          "url": "https://www.codingame.com/"
+        },
+        {
+          "name": "Edabit",
+          "url": "https://edabit.com/"
+        },
+        {
+          "name": "Flexbox Zombie",
+          "url": "https://mastery.games/flexboxzombies/"
+        },
+        {
+          "name": "Flexbox Defense",
+          "url": "http://www.flexboxdefense.com"
+        },
+        {
+          "name": "CSS Grid Attack",
+          "url": "https://codingfantasy.com/games/css-grid-attack"
+        },
+        {
+          "name": "Code",
+          "url": "https://code.org/minecraft"
+        }
+      ],
+        "templates_html_gratuitos": [
+          {
+            "name": "Bootstrap Made",
+            "url": "https://bootstrapmade.com/"
+          },
+          {
+            "name": "W3 Layouts",
+            "url": "https://w3layouts.com"
+          },
+          {
+            "name": "One Page Love",
+            "url": "https://onepagelove.com"
+          },
+          {
+            "name": "ThemeWagon Freebies",
+            "url": "https://themewagon.com/theme_tag/free/"
+          },
+          {
+            "name": "HTML5 UP",
+            "url": "https://html5up.net/"
+          }
+        ],
+        "sites_para_treinar_css": [
+          {
+            "name": "CSS Grid Garden",
+            "url": "http://cssgridgarden.com/"
+          },
+          {
+            "name": "Flukeout",
+            "url": "http://flukeout.github.io/"
+          },
+          {
+            "name": "Flexbox Froggy",
+            "url": "https://flexboxfroggy.com/"
+          },
+          {
+            "name": "Flexbox Defense",
+            "url": "http://www.flexboxdefense.com/"
+          },
+          {
+            "name": "100 Dias de CSS",
+            "url": "https://100dayscss.com"
+          },
+          {
+            "name": "CSS Battle",
+            "url": "https://cssbattle.dev/"
+          },
+          {
+            "name": "CSS Tricks",
+            "url": "https://css-tricks.com/guides/"
+          },
+          {
+            "name": "CSS Hell",
+            "url": "https://csshell.dev/"
+          }
+        ],
+        "geradores_de_css": [
+          {
+            "name": "Neumorphism",
+            "url": "https://neumorphism.io/"
+          },
+          {
+            "name": "Fancy Border-Radius",
+            "url": "https://9elements.github.io/fancy-border-radius/"
+          },
+          {
+            "name": "WAIT! Animate",
+            "url": "https://waitanimate.wstone.io"
+          },
+          {
+            "name": "Best CSS Button Generator",
+            "url": "https://www.bestcssbuttongenerator.com"
+          },
+          {
+            "name": "HTML CSS JS Generator",
+            "url": "https://html-css-js.com/css/generator/"
+          },
+          {
+            "name": "BennettFeely",
+            "url": "https://bennettfeely.com/clippy/"
+          },
+          {
+            "name": "Animista",
+            "url": "https://animista.net"
+          }
+        ],
+          "sites_para_procurar_vagas_remotas": [
+            {
+              "name": "BairesDev",
+              "url": "https://www.bairesdev.com"
+            },
+            {
+              "name": "Bergamot",
+              "url": "https://bergamot.io"
+            },
+            {
+              "name": "Coodesh",
+              "url": "https://coodesh.com"
+            },
+            {
+              "name": "Há Vagas",
+              "url": "https://havagas.pt"
+            },
+            {
+              "name": "Hired",
+              "url": "https://hired.com"
+            },
+            {
+              "name": "JustRemote",
+              "url": "https://justremote.co"
+            },
+            {
+              "name": "Programathor",
+              "url": "https://programathor.com.br/"
+            },
+            {
+              "name": "Remotar",
+              "url": "https://remotar.com.br"
+            },
+            {
+              "name": "Remote OK",
+              "url": "https://remoteok.io"
+            },
+            {
+              "name": "Strider",
+              "url": "https://www.onstrider.com/"
+            },
+            {
+              "name": "Toptal",
+              "url": "https://www.toptal.com"
+            },
+            {
+              "name": "Turing",
+              "url": "https://www.turing.com"
+            },
+            {
+              "name": "Working Nomads",
+              "url": "https://workingnomads.co"
+            },
+            {
+              "name": "X-Team",
+              "url": "https://x-team.com"
+            }
+          ],
+          
+            "ferramentas_de_desenvolvimento": [
+              {
+                "nome": "Internxt",
+                "url": "https://internxt.com/"
+              },
+              {
+                "nome": "Motion",
+                "url": "https://motion.dev/"
+              },
+              {
+                "nome": "Hokusai",
+                "url": "https://hokusai.app/"
+              },
+              {
+                "nome": "Hidden Tools",
+                "url": "https://hiddentools.dev"
+              },
+              {
+                "nome": "Dev Hints",
+                "url": "https://devhints.io"
+              },
+              {
+                "nome": "Bundlephobia",
+                "url": "https://bundlephobia.com"
+              },
+              {
+                "nome": "Refactoring Guru",
+                "url": "https://refactoring.guru/pt-br/design-patterns"
+              },
+              {
+                "nome": "DevDocs",
+                "url": "https://devdocs.io/"
+              },
+              {
+                "nome": "HTML Validator",
+                "url": "https://www.freeformatter.com/html-validator.html"
+              },
+              {
+                "nome": "HTML 5 Test",
+                "url": "https://html5test.com/index.html"
+              },
+              {
+                "nome": "Image Slide Maker",
+                "url": "https://imageslidermaker.com/v2"
+              },
+              {
+                "nome": ".NET Fiddle",
+                "url": "https://dotnetfiddle.net/"
+              },
+              {
+                "nome": "1PageRank",
+                "url": "http://www.1pagerank.com/"
+              },
+              {
+                "nome": "4Devs",
+                "url": "https://www.4devs.com.br/"
+              },
+              {
+                "nome": "Any API",
+                "url": "https://any-api.com/"
+              },
+              {
+                "nome": "Autoprefixer CSS",
+                "url": "http://autoprefixer.github.io/"
+              },
+              {
+                "nome": "Browser diet",
+                "url": "https://browserdiet.com/pt/"
+              },
+              {
+                "nome": "Can I email...",
+                "url": "https://www.caniemail.com/"
+              },
+              {
+                "nome": "Can I use...",
+                "url": "https://caniuse.com/"
+              },
+              {
+                "nome": "CloudFlare",
+                "url": "https://www.cloudflare.com/pt-br/"
+              },
+              {
+                "nome": "CMDER",
+                "url": "https://cmder.net/"
+              },
+              {
+                "nome": "CodePen",
+                "url": "https://codepen.io/"
+              },
+              {
+                "nome": "CodeSandbox",
+                "url": "https://codesandbox.io/"
+              },
+              {
+                "nome": "Connection Strings",
+                "url": "https://www.connectionstrings.com/"
+              },
+              {
+                "nome": "CSS Formatter",
+                "url": "https://www.cleancss.com/css-beautify/"
+              },
+              {
+                "nome": "CSS Minifier",
+                "url": "https://cssminifier.com/"
+              },
+              {
+                "nome": "CSS W3.org",
+                "url": "https://jigsaw.w3.org/css-validator/"
+              },
+              {
+                "nome": "Debuggex",
+                "url": "https://www.debuggex.com"
+              },
+              {
+                "nome": "docsify",
+                "url": "https://docsify.js.org/#/"
+              },
+              {
+                "nome": "EasyForms",
+                "url": "https://easyforms.vercel.app/"
+              },
+              {
+                "nome": "Editor.md",
+                "url": "https://pandao.github.io/editor.md/en.html"
+              },
+              {
+                "nome": "ES6console",
+                "url": "https://es6console.com/"
+              },
+              {
+                "nome": "Firebase",
+                "url": "https://firebase.google.com/?hl=pt-BR"
+              },
+              {
+                "nome": "Firefox Developer Edition",
+                "url": "https://www.mozilla.org/pt-BR/firefox/developer/"
+              },
+              {
+                "nome": "Full Page Screen Capture",
+                "url": "https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl?hl=pt-BR"
+              },
+              {
+                "nome": "generatedata",
+                "url": "http://www.generatedata.com/"
+              },
+              {
+                "nome": "Git Command Explorer",
+                "url": "https://gitexplorer.com/"
+              },
+              {
+                "nome": "GitHub Gist",
+                "url": "https://gist.github.com/"
+              },
+              {
+                "nome": "Google Transparency Report",
+                "url": "https://transparencyreport.google.com/safe-browsing/search"
+              },
+              {
+                "nome": "Grader",
+                "url": "https://website.grader.com/"
+              },
+              {
+                "nome": "How to Center in CSS",
+                "url": "http://howtocenterincss.com/"
+              },
+              {
+                "nome": "Hyper",
+                "url": "https://hyper.is/"
+              },
+              {
+                "nome": "Joomla",
+                "url": "https://www.joomla.org/"
+              },
+              {
+                "nome": "JS Bin",
+                "url": "https://jsbin.com/"
+              },
+              {
+                "nome": "JSCompress",
+                "url": "https://jscompress.com/"
+              },
+              {
+                "nome": "JSON Editor Online",
+                "url": "https://jsoneditoronline.org/"
+              },
+              {
+                "nome": "JSFiddle",
+                "url": "https://jsfiddle.net/"
+              },
+              {
+                "nome": "JSONLint",
+                "url": "https://jsonlint.com/"
+              },
+              {
+                "nome": "JSON Generator",
+                "url": "https://app.json-generator.com/"
+              },
+              {
+                "nome": "KeyCDN Tools",
+                "url": "https://tools.keycdn.com/"
+              },
+              {
+                "nome": "Liveweave",
+                "url": "https://liveweave.com/"
+              },
+              {
+                "nome": "Lorem Ipsum",
+                "url": "https://br.lipsum.com/"
+              },
+              {
+                "nome": "Mapbox",
+                "url": "https://www.mapbox.com/"
+              },
+              {
+                "nome": "Memcached",
+                "url": "https://memcached.org/"
+              },
+              {
+                "nome": "Mockaroo",
+                "url": "https://www.mockaroo.com/"
+              },
+              {
+                "nome": "Mussum Ipsum",
+                "url": "https://mussumipsum.com/"
+              },
+              {
+                "nome": "NPM HTTP-Server",
+                "url": "https://www.npmjs.com/package/http-server"
+              },
+              {
+                "nome": "Password Generator",
+                "url": "https://danieldeev.github.io/password-generator/"
+              },
+              {
+                "nome": "Online C Compiler",
+                "url": "https://www.onlinegdb.com/online_c_compiler"
+              },
+              {
+                "nome": "React Dev Tools",
+                "url": "https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi"
+              },
+              {
+                "nome": "React Hook Form",
+                "url": "https://react-hook-form.com/"
+              },
+              {
+                "nome": "Readme.so",
+                "url": "https://readme.so/pt"
+              },
+              {
+                "nome": "RelaX",
+                "url": "http://dbis-uibk.github.io/relax/index.htm"
+              },
+              {
+                "nome": "Responsive",
+                "url": "http://www.codeorama.com/responsive/"
+              },
+              {
+                "nome": "Responsively",
+                "url": "https://responsively.app/"
+              },
+              {
+                "nome": "Shields.io",
+                "url": "https://shields.io/"
+              },
+              {
+                "nome": "SSL Server Test",
+                "url": "https://www.ssllabs.com/ssltest/"
+              },
+              {
+                "nome": "StreamYard",
+                "url": "https://streamyard.com/"
+              },
+              {
+                "nome": "Swagger",
+                "url": "https://swagger.io/"
+              },
+              {
+                "nome": "Tabela ASCII",
+                "url": "https://web.fe.up.pt/~ee96100/projecto/Tabela%20ascii.htm"
+              },
+              {
+                "nome": "Telegram",
+                "url": "https://telegram.org/"
+              },
+              {
+                "nome": "TinyJPG",
+                "url": "https://tinyjpg.com/"
+              },
+              {
+                "nome": "TinyPNG",
+                "url": "https://tinypng.com/"
+              },
+              {
+                "nome": "Creately",
+                "url": "https://creately.com/"
+              },
+              {
+                "nome": "Carbon",
+                "url": "https://carbon.now.sh/"
+              },
+              {
+                "nome": "DbDiagram",
+                "url": "https://dbdiagram.io/home"
+              },
+              {
+                "nome": "SqlDesigner",
+                "url": "https://ondras.zarovi.cz/sql/demo/"
+              },
+              {
+                "nome": "W3.org",
+                "url": "https://validator.w3.org/"
+              },
+              {
+                "nome": "WakaTime",
+                "url": "https://wakatime.com/"
+              },
+              {
+                "nome": "Web Developer",
+                "url": "https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?hl=pt-BR"
+              },
+              {
+                "nome": "Web.dev",
+                "url": "https://web.dev/"
+              },
+              {
+                "nome": "WebPageTest",
+                "url": "https://www.webpagetest.org/"
+              },
+              {
+                "nome": "Wedsites",
+                "url": "https://wedsites.com/"
+              },
+              {
+                "nome": "WordPress",
+                "url": "https://wordpress.org/"
+              },
+              {
+                "nome": "XML Sitemaps",
+                "url": "https://www.xml-sitemaps.com/"
+              },
+              {
+                "nome": "Patterns.dev",
+                "url": "https://www.patterns.dev/"
+              },
+              {
+                "nome": "Requestbin",
+                "url": "https://requestbin.com/"
+              },
+              {
+                "nome": "Vim Awesome",
+                "url": "https://vimawesome.com/"
+              },
+              {
+                "nome":
+                "url": 
+              }
+            ]
+          
+              
+  }
+}

@@ -36,6 +36,7 @@ import { TriangleDownIcon } from '@chakra-ui/icons';
 import React from 'react';
 import { useCourses } from '../../../shared/hooks/courses.hook';
 import { useAuth } from '../../../shared/hooks/auth.hook';
+import { useRouter } from 'next/router';
 
 export default function HeaderNavBar() {
   const { handleChangeCurrentClass } = useCourses();
@@ -43,6 +44,7 @@ export default function HeaderNavBar() {
   const btnRef = React.useRef();
   const { modules } = useCourses();
   const { handleSignOut } = useAuth();
+  const router = useRouter();
 
   return (
     <>
@@ -52,26 +54,39 @@ export default function HeaderNavBar() {
           justifyContent={'space-between'}
           alignItems={'center'}
         >
+          {/* <Icon
+                height={'100px'}
+                as={TriangleDownIcon}
+            ref={btnRef}
+            
+                backdropBlur={'none'}
+                color={'rgba(13, 168, 255, 1)'}
+                onClick={() => router.push('/')}
+                transform={'rotate(90deg)'}
+              />{' '} */}
           <Flex marginLeft={69}>
             <Button
-              color="black"
+              marginTop={'2px'}
+              textColor={'#666666'}
               ref={btnRef}
               onClick={onOpen}
               background={'black'}
               hover={'none'}
             >
-              <Icon
-                height={'100px'}
-                as={TriangleDownIcon}
-                ref={btnRef}
-                backdropBlur={'none'}
-                color={'rgba(13, 168, 255, 1)'}
-                onClick={onOpen}
-                transform={'rotate(90deg)'}
-              />{' '}
+              <Text
+                textColor={'#666666'}
+                fontSize={'30px'}
+                fontWeight={700}
+              >
+                Módulos
+              </Text>
             </Button>
-            <Text fontSize={'30px'} fontWeight={700}>
-              Pautaforma
+            <Text
+              textColor={'#666666'}
+              fontSize={'30px'}
+              fontWeight={700}
+            >
+              Pautaforma - Full Cycle
             </Text>
           </Flex>
 

@@ -10,9 +10,14 @@ export const route_names = {
     subfolders: [],
   },
   pautaforma: {
+    home: {
+      name: 'home',
+      href: '/',
+      icon: RiSendPlaneFill,
+    },
     cursos: {
       name: 'cursos',
-      href: '/fullcycle',
+      href: '/full-cycle',
       icon: RiSendPlaneFill,
     },
 
