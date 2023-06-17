@@ -121,12 +121,11 @@ export default function Login() {
                       localStorage.getItem('PAUTAFORMA::EMAIL') ?? ''
                     }
                     type="email"
-                    name="email"
                     border={'1px solid #E2E8F0'}
                     bg={'transparent'}
                     placeholder="nome@exemplo.com"
-                    error={errors.email}
-                    _hover={'none'}
+                    // error={errors.email}
+                    // _hover={'none'}
                     {...register('email')}
                   />
                 </FormControl>
@@ -134,13 +133,12 @@ export default function Login() {
                   <FormLabel fontWeight="bold">Senha</FormLabel>
                   <InputGroup>
                     <Input
-                      _hover={'none'}
                       border={'1px solid #E2E8F0'}
                       type={showPassword ? 'text' : 'password'}
-                      name="password"
                       bg={'transparent'}
                       placeholder="8 dígitos no mínimo"
-                      error={errors.password}
+                      // error={errors.password}
+                      // _hover={'none'}
                       {...register('password')}
                     />
                     <InputRightElement h={'full'}>
@@ -172,7 +170,6 @@ export default function Login() {
               >
                 <Checkbox
                   type="rememberMe"
-                  name="rememberMe"
                   w="100%"
                   colorScheme="blue"
                   marginTop="10px"
