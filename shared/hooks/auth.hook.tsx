@@ -20,7 +20,7 @@ interface ILoginData {
 }
 
 interface IAuthContextData {
-  handleSignIn(loginData: ILoginData): Promise<void>;
+  handleSignIn(loginData: any): Promise<void>;
   handleSignOut(): Promise<void>;
   // user: IUser;
 }

@@ -68,10 +68,10 @@ export default function HeaderNavBar() {
             <Button
               marginTop={'2px'}
               textColor={'#666666'}
-              ref={btnRef}
+              ref={btnRef as unknown as React.RefObject<HTMLButtonElement>}
               onClick={onOpen}
-              background={'black'}
-              hover={'none'}
+              background={'black'} 
+              // hover={'none'}
             >
               <Text
                 textColor={'#666666'}
@@ -142,7 +142,7 @@ export default function HeaderNavBar() {
           placement="left"
           isOpen={isOpen}
           onClose={onClose}
-          finalFocusRef={btnRef}
+          finalFocusRef={btnRef as unknown as React.RefObject<HTMLButtonElement>}
         >
           <DrawerOverlay />
           <DrawerContent backgroundColor={'#121214'}>

@@ -1,21 +1,8 @@
-import Image from 'next/image';
-import {
-  Box,
-  Center,
-  Heading,
-  Text,
-  Stack,
-  Avatar,
-  useColorModeValue,
-  Flex,
-} from '@chakra-ui/react';
-import { useState } from 'react';
+import { Box, Heading, Text, Stack, Flex } from '@chakra-ui/react';
 import { redirect, useRouter } from 'next/navigation';
 
 export default function Home() {
   const router = useRouter();
-  
-
   const fullCycle =
     'https://cdn.discordapp.com/attachments/727458678638379082/1117567640173555872/image.png';
   const guiaDev =
@@ -52,7 +39,7 @@ export default function Home() {
           mb={6}
           pos={'relative'}
         >
-          <img src={guiaDev} layout={'contain'} alt="teste" />
+          <img src={guiaDev} alt="teste" />
         </Box>
         <Stack border={'blue'} height={280}>
           <Text
@@ -105,7 +92,7 @@ export default function Home() {
           mb={6}
           pos={'relative'}
         >
-          <img src={fullCycle} layout={'fill'} alt="teste" />
+          <img src={fullCycle} alt="teste" />
         </Box>
         <Stack height={280}>
           <Text
