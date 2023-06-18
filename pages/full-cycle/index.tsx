@@ -8,14 +8,16 @@ export default function FullCycle() {
   return (
     <>
       <CoursesProvider>
-        <HeaderNavBar />
+        <HeaderNavBar  />
         <Divider color={'rgba(255, 255, 255, 0.2)'} />
-        <Flex          
+        <Flex
+          // background={'red'}
+          flexDirection={['column', 'row']}
           overflow={'hidden'}
-          marginTop="20px"
-          mr="87.27px"
-          ml="87.27px"
-          justifyContent={'space-evenly'}
+          marginTop={['20px']}
+          mr={["0px","87.27px"]}
+          ml={["0px","87.27px"]}
+          // w={'90%'}
         >
           <VideoPlayer />
           <NextClass />

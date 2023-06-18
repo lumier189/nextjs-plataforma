@@ -48,7 +48,7 @@ export default function HeaderNavBar() {
 
   return (
     <>
-      <Box px={4} height={102}>
+      <Box  w={["50%", "100%"]} px={4} height={102}>
         <Flex
           minH={'100%'}
           justifyContent={'space-between'}
@@ -64,7 +64,7 @@ export default function HeaderNavBar() {
                 onClick={() => router.push('/')}
                 transform={'rotate(90deg)'}
               />{' '} */}
-          <Flex marginLeft={69}>
+          <Flex marginLeft={[0,69]}>
             <Button
               marginTop={'2px'}
               textColor={'#666666'}
@@ -75,7 +75,7 @@ export default function HeaderNavBar() {
             >
               <Text
                 textColor={'#666666'}
-                fontSize={'30px'}
+                fontSize={['22px','30px']}
                 fontWeight={700}
               >
                 Módulos
@@ -83,7 +83,7 @@ export default function HeaderNavBar() {
             </Button>
             <Text
               textColor={'#666666'}
-              fontSize={'30px'}
+              fontSize={['22px','30px']}
               fontWeight={700}
             >
               Pautaforma - Full Cycle

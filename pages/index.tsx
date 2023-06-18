@@ -1,8 +1,15 @@
-import { Box, Heading, Text, Stack, Flex } from '@chakra-ui/react';
-import { redirect, useRouter } from 'next/navigation';
+import {
+  Box,
+  Heading,
+  Text,
+  Stack,
+  Flex,
+} from '@chakra-ui/react';
+import { useRouter } from 'next/navigation';
 
 export default function Home() {
   const router = useRouter();
+
   const fullCycle =
     'https://cdn.discordapp.com/attachments/727458678638379082/1117567640173555872/image.png';
   const guiaDev =
@@ -11,12 +18,16 @@ export default function Home() {
   return (
     <Flex
       justifyContent={'center'}
-      py={6}
+      py={[0,6]}
+      height={['auto', '100vh']}
+      flexDir={['column', 'row']}
       alignItems={'center'}
-      height={'100vh'}
     >
       <Box
-        margin={50}
+        margin={[0,50]}
+        onClick={() =>
+          window.open('https://github.com/arthurspk/guiadevbrasil')
+        }
         _hover={{
           transform: 'scale(1.1)',
           transition: 'transform .5s ease',
@@ -30,10 +41,8 @@ export default function Home() {
         overflow={'hidden'}
       >
         <Box
-          onClick={() =>
-            window.open('https://github.com/arthurspk/guiadevbrasil')
-          }
-          h={'210px'}
+          
+          h={['auto', '210px']}
           bg={'gray.100'}
           mx={-6}
           mb={6}
@@ -86,7 +95,7 @@ export default function Home() {
         overflow={'hidden'}
       >
         <Box
-          h={'210px'}
+          h={['auto', '210px']}
           bg={'gray.100'}
           mx={-6}
           mb={6}
