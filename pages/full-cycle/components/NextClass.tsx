@@ -12,6 +12,18 @@ import { CheckIcon } from '@chakra-ui/icons';
 
 function NextClass() {
   const { currentClass, handleChangeVideo, isPlaying } = useCourses();
+  const convertSecondsInMinutes = (seconds: number) => {
+    const minutes = Math.floor(seconds / 60);
+    const Remainingseconds = seconds % 60;
+
+    var formmatedMinutes = minutes < 10 ? '0' + minutes : minutes;
+    var formmatedSeconds =
+      Remainingseconds < 10
+        ? '0' + Remainingseconds
+        : Remainingseconds;
+
+    return `${formmatedMinutes}:${formmatedSeconds}`;
+  };
   const bg =
     'https://cdn.discordapp.com/attachments/940151959489499209/1097231567757246557/image.png';
   return (
@@ -37,16 +49,13 @@ function NextClass() {
         },
       }}
     >
-      <Flex
-        flexDirection={['row', 'column']}
-        maxH={'650px'}
-      >
+      <Flex flexDirection={['row', 'column']} maxH={'650px'}>
         {currentClass &&
           currentClass?.sections?.map((section: any) => (
             <Flex
               flexDirection={['column', 'row']}
               onClick={() => handleChangeVideo(section.id)}
-              _hover={{ pbackground: 'black', color: 'white' }}
+              _hover={{ background: '#062638', color: 'white' }}
               borderRadius={15}
               mb={5}
               key={section.name}
@@ -56,14 +65,18 @@ function NextClass() {
                 borderRadius={'10px'}
                 key={section.id}
                 minH="82px"
-                h="95.18px"
+                h="92px.18px"
                 minHeight={'95.18px'}
                 bg="black"
                 minW={'157.4px'}
                 w="157.4px"
                 m="26px"
-                bgImage={section.imgSrc ? section.imageSrc : bg}
-                bgSize="100%"
+                bgImage={
+                  section.video.thumbnailPath
+                    ? section.video.thumbnailPath
+                    : bg
+                }
+                bgSize="110%"
                 cursor="pointer"
                 backgroundRepeat="no-repeat"
               >
@@ -81,26 +94,30 @@ function NextClass() {
                     {/* <CheckIcon marginLeft={2} boxSize={8} color={'green.500'}/> */}
                     <Text
                       bg="black"
-                      opacity="30%"
+                      opacity="50%"
                       borderRadius="10px"
+                      textColor={'white'}
                       fontSize={15}
                     >
-                      10:40
+                      {convertSecondsInMinutes(
+                        section?.video?.duration
+                      )}                      
                     </Text>
                   </Flex>
                 </Box>
-
-                <Progress
-                  alignSelf={'center'}
-                  justifyContent={'center'}
-                  mb={'20px'}
-                  size={'sm'}
-                  width={'85%'}
-                  borderRadius={15}
-                  colorScheme="cyan"
-                  background={'#FFFFFF'}
-                  value={50}
-                />
+                {!!section.progress.progress && (
+                  <Progress
+                    alignSelf={'center'}
+                    justifyContent={'center'}
+                    mb={'20px'}
+                    size={'sm'}
+                    width={'85%'}
+                    borderRadius={15}
+                    colorScheme="cyan"
+                    background={'#FFFFFF'}
+                    value={section.progress.progress}
+                  />
+                )}
               </Flex>
               <Flex
                 bg={''}

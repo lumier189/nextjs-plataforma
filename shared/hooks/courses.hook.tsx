@@ -29,13 +29,21 @@ interface IProgress {
   progress: number;
   isFinished: boolean;
 }
-
+interface IVideo {
+  duration: number;
+  id: number;
+  mimyType: string;
+  size: number;
+  summary: any;
+  tumblnailPath: string;
+}
 interface ISection {
   id: number;
   name: string;
   classId: number;
   progress: IProgress;
   module: string;
+  video: IVideo;
 }
 
 interface IModule {
@@ -83,6 +91,8 @@ export function CoursesProvider(props: any) {
   const [currentClass, setCurrentClass] = useState<ICurrentClass>();
   const [isPlaying, setIsPlaying] = useState<IPlaying>();
   const toast = useToast();
+
+  console.log(currentClass,'CURRENTCLASS')
 
   console.log(currentClass, 'currentclass');
   console.log(isPlaying, 'isplaying');
@@ -146,7 +156,7 @@ export function CoursesProvider(props: any) {
     module: string;
   }) {
     pautaformaApi
-      .get<ISection[]>(`section?filters[class_id]=${id}`)
+      .get<ISection[]>(`section?filters[class_id]=${id}&relations=video`)
       .then((response) => {
         setCurrentClass({
           name: name,

@@ -59,7 +59,7 @@ const VideoPlayer = () => {
               fontSize={'19.4px'}
             >
               {' '}
-              corno
+              Escolha um Módulos
             </Text>
           )}
           {/* <Text
@@ -74,7 +74,7 @@ const VideoPlayer = () => {
         </Box>
         <Box
           borderColor={'white'}
-          borderWidth={'3px'}
+          borderWidth={['0px','3px']}
           borderRadius={'20px'}
           marginTop={'20px'}
           // maxW="1170"
@@ -87,14 +87,13 @@ const VideoPlayer = () => {
           objectFit="contain"
         ></Box>
         <Box padding={['10px','0px']} flexDirection={'column'}>
-          <Heading mt={'15px'} textColor={'yellow.300'} fontSize={['16px','26px']}>
-            REMOVENDO CONTAINERS
+          <Heading mt={'15px'} textColor={'#666666'} fontSize={['16px','26px']}>
+           {isPlaying?.name}
           </Heading>
-          <Text mt={'15px'}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Sapiente aliquam veniam vel vitae odio inventore
-            repudiandae in, iste, neque provident officia aliquid.
-            Est, sequi ullam. Accusamus sed assumenda eos deleniti?
+          <Text mt={'15px'} textColor={'#666666'}>
+            Aqui tem uma frase muito importante sobre o contéudo que você está assistindo.
+            Realmente muito importante, não deixe de ler.
+
           </Text>
         </Box>
       </Flex>

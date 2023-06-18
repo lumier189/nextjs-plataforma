@@ -48,7 +48,7 @@ export default function HeaderNavBar() {
 
   return (
     <>
-      <Box  w={["50%", "100%"]} px={4} height={102}>
+      <Box  w={["100%", "100%"]} px={4} height={102}>
         <Flex
           minH={'100%'}
           justifyContent={'space-between'}
@@ -66,7 +66,7 @@ export default function HeaderNavBar() {
               />{' '} */}
           <Flex marginLeft={[0,69]}>
             <Button
-              marginTop={'2px'}
+              marginTop={['-4px','2px']}
               textColor={'#666666'}
               ref={btnRef as unknown as React.RefObject<HTMLButtonElement>}
               onClick={onOpen}
@@ -92,7 +92,7 @@ export default function HeaderNavBar() {
 
           <Flex alignItems={'center'}>
             <Stack direction={'row'} spacing={7}>
-              <Menu>
+              <Menu >
                 <MenuButton
                   marginRight={70}
                   as={Button}
