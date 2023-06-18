@@ -14,10 +14,15 @@ export const theme = extendTheme({
     Progress: {
       baseStyle: {
         filledTrack: {
-          backgroundColor: "#0DA8FF",
+          backgroundColor: '#0DA8FF',
         },
       },
     },
   },
-
+  breakpoints: {
+    sm: '320px',
+    md: '1280px',
+    // lg: '960px',
+    // xl: '1200px',
+  },
 });

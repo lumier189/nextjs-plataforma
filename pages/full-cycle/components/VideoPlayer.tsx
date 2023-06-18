@@ -39,20 +39,29 @@ const VideoPlayer = () => {
   // };
 
   return (
-    <Box minW={'1170px'} maxW={'1170px'}>
+    <Box minW={['60%', '65%']} height={['70%', '80%']} marginRight={['0px','10px']} >
       <Flex flexDirection={'column'}>
         <Box>
-          {currentClass?.module ? (<Text
-            textColor={'#666666'}
-            fontWeight={500}
-            fontSize={'19.4px'}
-          >
-            {`${currentClass?.module} - `}
-            {`${currentClass?.name} - `}
-            {isPlaying?.name}
-          </Text>): <Text textColor={'#666666'}
-            fontWeight={500}
-            fontSize={'19.4px'}> corno</Text>}
+          {currentClass?.module ? (
+            <Text
+              textColor={'#666666'}
+              fontWeight={500}
+              fontSize={'19.4px'}
+            >
+              {`${currentClass?.module} - `}
+              {`${currentClass?.name} - `}
+              {isPlaying?.name}
+            </Text>
+          ) : (
+            <Text
+              textColor={'#666666'}
+              fontWeight={500}
+              fontSize={'19.4px'}
+            >
+              {' '}
+              corno
+            </Text>
+          )}
           {/* <Text
             textColor={'#666666'}
             fontWeight={500}
@@ -68,8 +77,8 @@ const VideoPlayer = () => {
           borderWidth={'3px'}
           borderRadius={'20px'}
           marginTop={'20px'}
-          maxW="1170"
-          maxH={'588'}
+          // maxW="1170"
+          // maxH={'588'}
           ref={videoRef}
           as="video"
           controls
@@ -77,8 +86,10 @@ const VideoPlayer = () => {
           poster={isPlaying?.thumbnailPath}
           objectFit="contain"
         ></Box>
-        <Box>
-          <Heading mt={'15px'}>Lorem ipsum dolor sit amet </Heading>
+        <Box padding={['10px','0px']} flexDirection={'column'}>
+          <Heading mt={'15px'} textColor={'yellow.300'} fontSize={['16px','26px']}>
+            REMOVENDO CONTAINERS
+          </Heading>
           <Text mt={'15px'}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Sapiente aliquam veniam vel vitae odio inventore
