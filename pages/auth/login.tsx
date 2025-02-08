@@ -58,7 +58,7 @@ export default function Login() {
   return (
     <Box fontFamily=' "Manrope", sans-serif'>
       <Flex
-        // backgroundImage="/assets/logokkk.jpg"
+        backgroundImage="/assets/background.png"
         backgroundRepeat="no-repeat"
         bgSize="100%"
         width="100vw"
@@ -66,12 +66,6 @@ export default function Login() {
         direction="row"
         // bgColor="black"
       >
-        {/* <Image
-                  src="/assets/logokkk.jpg"
-                  alt="Pautaforma logo"
-                  width="201px"
-                  paddingBottom="65px"
-                /> */}
         <Flex
           as="form"
           flex="2"

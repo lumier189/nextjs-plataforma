@@ -4,8 +4,8 @@ export const theme = extendTheme({
   styles: {
     global: {
       body: {
-        background:
-          'url(https://cdn.discordapp.com/attachments/940151959489499209/1107055199157223496/background1.png) ',
+        background: '/assets/background.png',
+        backgroundImage: '/assets/background.png',
         backgroundSize: 'cover',
       },
     },

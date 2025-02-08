@@ -11,9 +11,9 @@ export default function Home() {
   const router = useRouter();
 
   const fullCycle =
-    'https://cdn.discordapp.com/attachments/727458678638379082/1117567640173555872/image.png';
+    '/assets/full-cycle.png';
   const guiaDev =
-    'https://cdn.discordapp.com/attachments/727458678638379082/1117564883622449343/image.png';
+    '/assets/guia-dev.png';
 
   return (
     <Flex
@@ -101,9 +101,8 @@ export default function Home() {
           mb={6}
           pos={'relative'}
         >
-          <img src={fullCycle} alt="teste" />
-        </Box>
-        <Stack height={280}>
+        <img src={fullCycle} alt="teste" style={{ width: '100%', height: '100%', objectFit: 'fit' }} />        </Box>
+        <Stack height={280}> 
           <Text
             color={'green.500'}
             textTransform={'uppercase'}

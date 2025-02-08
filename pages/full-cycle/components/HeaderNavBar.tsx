@@ -103,9 +103,7 @@ export default function HeaderNavBar() {
                 >
                   <Avatar
                     size={'md'}
-                    src={
-                      'https://avatars.dicebear.com/api/male/username.svg'
-                    }
+                    src= '/assets/avatar.svg'
                   />
                 </MenuButton>
 
@@ -115,7 +113,7 @@ export default function HeaderNavBar() {
                     <Avatar
                       size={'2xl'}
                       src={
-                        'https://avatars.dicebear.com/api/male/username.svg'
+                        'https://cdn.discordapp.com/attachments/727458678638379082/1246252687255928862/image.png?ex=665bb6c2&is=665a6542&hm=36d052d48fdfb72a950d01916792aa6b5d1f2724e16b67bb9f569b9f627c0b16&'
                       }
                     />
                   </Center>
