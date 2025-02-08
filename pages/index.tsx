@@ -101,7 +101,8 @@ export default function Home() {
           mb={6}
           pos={'relative'}
         >
-        <img src={fullCycle} alt="teste" style={{ width: '100%', height: '100%', objectFit: 'fit' }} />        </Box>
+        <img src={fullCycle} alt="teste" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />     
+        </Box>
         <Stack height={280}> 
           <Text
             color={'green.500'}
